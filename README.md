@@ -51,8 +51,8 @@ nano .g810-profile/src/g810-profile.sh
 nano .g810-profile/PROFILES
 ```
 
-- logout/login user session 
-*Logout/login user session to load new PATH in .profiles*
+- logout/login user session
+Logout/login user session to load new PATH in .profiles*
 
 - start g810-profile
 ```
