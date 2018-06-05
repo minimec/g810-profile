@@ -1,0 +1,20 @@
+## Profile for Frozen Bubbles
+
+# variables
+var red ff0000
+var yellow ffff00
+var green 006400
+var grey 666666
+
+
+# changes
+
+k e $grey
+k v $grey
+k i $grey
+k n $grey
+k c $grey
+k e $grey
+
+# apply changes
+c

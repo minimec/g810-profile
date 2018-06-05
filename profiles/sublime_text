@@ -1,0 +1,15 @@
+## Profile for Sublime Text
+# variables
+var color 006400
+
+# changes
+k s $color
+k u $color
+k b $color
+k l $color
+k i $color
+k m $color
+k e $color
+
+# apply changes
+c

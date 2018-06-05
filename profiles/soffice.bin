@@ -1,0 +1,18 @@
+## Profile LibreOffice
+
+# variables
+var color ff00ff
+
+# changes
+k l $color
+k o $color
+k w $color
+k r $color
+k i $color
+k t $color
+k e $color
+k r $color
+
+
+# apply changes
+c

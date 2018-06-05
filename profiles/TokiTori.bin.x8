@@ -1,0 +1,31 @@
+## Profile for Toki Tori (Steam)
+
+# color variables
+var red ff0000
+var orange CC6600
+var yellow ffff00
+var green 006400
+var lila FF9999
+
+
+
+# changes
+
+k arrow_top $red
+k arrow_left $yellow
+k arrow_bottom $green
+k arrow_right $yellow
+
+k space $orange
+k ctrl_left $orange
+k ctrl_right $orange
+
+k 1 $lila
+k 2 $lila
+k 3 $lila
+k 4 $lila
+k 5 $lila
+k 6 $lila
+
+# apply changes
+c

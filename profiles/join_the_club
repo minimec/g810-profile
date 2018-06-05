@@ -1,0 +1,30 @@
+## Just for fun ... ;)
+
+# variables
+var orange CC6600
+var red ff0000
+var yellow ffff00
+var green 006400
+var grey 666666
+var brown 663300
+var lila FF9999
+var violet ff00ff
+
+# changes
+
+k j $red
+k o $red
+k i $red
+k n $red
+
+k t $yellow
+k h $yellow
+k e $yellow
+
+k c $green
+k l $green
+k u $green
+k b $green
+
+# apply changes
+c

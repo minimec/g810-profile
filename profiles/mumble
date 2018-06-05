@@ -1,0 +1,10 @@
+## Profile Mumble
+
+# variables
+var color CC6600
+
+# changes
+k tilde $color
+
+# apply changes
+c

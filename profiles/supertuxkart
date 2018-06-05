@@ -1,0 +1,30 @@
+## Profile audacious
+
+# variables
+var orange CC6600
+var red ff0000
+var yellow ffff00
+var green 006400
+var grey 666666
+var brown 663300
+var lila FF9999
+var violet ff00ff
+var bordeau a31e39
+
+# changes
+
+k escape $red
+k backspace $grey
+
+k arrow_top $green
+k arrow_left $orange
+k arrow_bottom $bordeau
+k arrow_right $orange
+
+k space $red
+k n $yellow
+k v $yellow
+k b $yellow
+
+# apply changes
+c

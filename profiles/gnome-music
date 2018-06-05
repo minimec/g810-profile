@@ -1,0 +1,22 @@
+## Profile gnome-music
+
+# variables
+var orange CC6600
+var red ff0000
+var yellow ffff00
+var green 006400
+var grey 666666
+var brown 663300
+var lila FF9999
+var violet ff00ff
+var bordeau a31e39
+
+# changes
+
+k play_pause $orange
+k stop $orange
+k previous $orange
+k next $orange
+
+# apply changes
+c

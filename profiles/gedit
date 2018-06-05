@@ -1,0 +1,14 @@
+## Profile for gedit
+
+# variables
+var color ffff00
+
+# changes
+k g $color
+k e $color
+k d $color
+k i $color
+k t $color
+
+# apply changes
+c

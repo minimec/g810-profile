@@ -1,0 +1,15 @@
+## Profile for firefox
+# variables
+var color ff0000
+
+# changes
+k f $color
+k i $color
+k r $color
+k e $color
+k f $color
+k o $color
+k x $color
+
+# apply changes
+c
