@@ -1,6 +1,6 @@
 
 # g810-profile A profile manager for Logitech RGB-keyboards compatible with g810-led
-See [https://github.com/MatMoul/g810-led](/https://github.com/MatMoul/g810-led) for the g810-led application.
+See [https://github.com/MatMoul/g810-led](https://github.com/MatMoul/g810-led) for the g810-led application.
 
 
 ## Features
@@ -23,7 +23,7 @@ Start any application in the terminal and/or use the top/htop command to get the
 
 - Clone repository
 ```
-git clone ...
+git clone https://github.com/minimec/g810-profile
 ```
 
 - Hide the folder
@@ -82,4 +82,5 @@ g810-profile start
 ```
 g810-profile stop
 ```
-
+## Notes
+The 'ding' sound file has been published under the Creatice Commons 'Sampling Plus 1.0' license and was found here http://soundbible.com/1441-Elevator-Ding.html](http://soundbible.com/1441-Elevator-Ding.html)
