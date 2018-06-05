@@ -31,6 +31,11 @@ git clone https://github.com/minimec/g810-profile
 mv g80-profile .g810-profile
 ```
 
+- Make script(s) executable
+```
+chmod +x .g810-profile/src/g810-profile.sh .g810-profile/src/g810-media-control.sh
+```
+
 - Backup current .profile / add '~/.g810-profile/bin' to PATH
 ```
 cp .profile{,.backup."$(date +%Y-%m-%d)"}
