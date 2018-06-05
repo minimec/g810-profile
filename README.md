@@ -83,4 +83,4 @@ g810-profile start
 g810-profile stop
 ```
 ## Notes
-The 'ding' sound file has been published under the Creatice Commons 'Sampling Plus 1.0' license and was found here http://soundbible.com/1441-Elevator-Ding.html](http://soundbible.com/1441-Elevator-Ding.html)
+The 'ding' sound file has been published under the Creatice Commons 'Sampling Plus 1.0' license and was found here [http://soundbible.com/1441-Elevator-Ding.html](http://soundbible.com/1441-Elevator-Ding.html)
