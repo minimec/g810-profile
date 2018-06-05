@@ -10,7 +10,7 @@ See [https://github.com/MatMoul/g810-led](https://github.com/MatMoul/g810-led) f
 - 'Google Keyboard'-Toggler for a keyboard full of colors based on running applications.
 
 ## How it works
-The script is based on a application listener ('while loop' based on 'ps o comm -C), a dbus-listener (dbus-monitor) for the multimendia controls and a 'on press' mute toggler (amixer).
+The script is based on a application listener ('while loop' based on 'ps o comm -C'), a dbus-listener (dbus-monitor) for the multimedia controls and a 'on press' mute toggler (amixer).
 The script is configured with the files PROFILE_BASE, PROFILES, GOOGLE_KEYBOARD, PROFILES_PERMANAENT.
 These files must have the following format:
 ```
@@ -63,13 +63,14 @@ g810-profile start
 ```
 g810-profile --join
 ```
-- 'Google Keyboard' Name written on keyboard for applications 'evince,eog,gedit,soffice.bin,firefox,sublime_text,thunderbird,skypeforlinux,mpv'
+- 'Google Keyboard' Name written on keyboard  in various for al applications in GOOGLE_KEYBOARD.  
+The function is a 'toggler'. Maybe add a custom shortcut...
 ```
 g810-profile --google
 ```
 - Mute toggle
-Disable 'mute' shortcut in the settings of your window manager
-Add a new custom shortcut for the 'mute' button with the fallowing value
+Disable 'mute' shortcut in the settings of your window manager (normally 'Backspace'-key to disable shortcut.
+Add a new custom shortcut for the 'mute' button with the fallowing value...
 ```
 g810-profile --mute
 ```
