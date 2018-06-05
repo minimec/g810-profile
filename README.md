@@ -4,10 +4,10 @@ See [https://github.com/MatMoul/g810-led](https://github.com/MatMoul/g810-led) f
 
 
 ## Features
-- Dynamic load/unload of application profiles --> See PROFILES file
+- Dynamic load/unload of application profiles
 - Dynamic media controls
 - 'On press' mute toggler
-- 'Google Keyboard'-Toggler for a keyboard full of colors based on running applications. --> See GOOGLE_KEYBOARD file
+- 'Google Keyboard'-Toggler for a keyboard full of colors based on running applications.
 
 ## How it works
 The script is based on a application listener ('while loop' based on 'ps o comm -C), a dbus-listener (dbus-monitor) for the multimendia controls and a 'on press' mute toggler (amixer).
