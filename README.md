@@ -63,7 +63,7 @@ g810-profile start
 ```
 g810-profile --join
 ```
-- 'Google Keyboard' Name written on keyboard  in various for al applications in GOOGLE_KEYBOARD.  
+- 'Google Keyboard' Name of all applications in GOOGLE_KEYBOARD written on the keyboard in various colors.    
 The function is a 'toggler'. Maybe add a custom shortcut...
 ```
 g810-profile --google
