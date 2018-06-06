@@ -38,7 +38,7 @@ if [ "$(pacmd dump | awk '$1 == "set-sink-mute" {m[$2] = $3} $1 == "set-default-
 	g810-led -k mute ff0000
 fi
 # Check Play/Pause/Stop status / Apply LED
-if [[ " ${PROFILES_ACTIVE[*]} " == *"$MUSIC_PLAYER"* ]]; then
+if [[ "${PROFILES_ACTIVE[@]}" =~ "${MUSIC_PROFILE}" ]]; then
 	STATUS=`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.$MUSIC_PLAYER \
 	/org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' \
 	string:'PlaybackStatus'|egrep -A 1 "string"|cut -b 26-|cut -d '"' -f 1|egrep -v ^$`
