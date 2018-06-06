@@ -31,7 +31,7 @@ git clone https://github.com/minimec/g810-profile
 mv g810-profile .g810-profile
 ```
 
-- Make script(s) executable / create 'bin' folder and link file
+- Make script(s) executable / create 'bin' folder and link the script file
 ```
 chmod +x $HOME/.g810-profile/src/g810-profile.sh $HOME/.g810-profile/src/g810-media-control.sh
 ```
