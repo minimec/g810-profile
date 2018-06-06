@@ -28,7 +28,7 @@ git clone https://github.com/minimec/g810-profile
 
 - Hide the folder
 ```
-mv g80-profile .g810-profile
+mv g810-profile .g810-profile
 ```
 
 - Make script(s) executable
