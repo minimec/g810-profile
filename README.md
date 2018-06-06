@@ -31,9 +31,15 @@ git clone https://github.com/minimec/g810-profile
 mv g810-profile .g810-profile
 ```
 
-- Make script(s) executable
+- Make script(s) executable / create 'bin' folder and link file
 ```
-chmod +x .g810-profile/bin/g810-profile .g810-profile/src/g810-profile.sh .g810-profile/src/g810-media-control.sh
+chmod +x $HOME/.g810-profile/src/g810-profile.sh $HOME/.g810-profile/src/g810-media-control.sh
+```
+```
+mkdir $HOME/.g810-profile/bin  
+```
+```
+ln -s $HOME/.g810-profile/src/g810-profile.sh $HOME/.g810-profile/bin/g810-profile  
 ```
 
 - Backup current .profile / add '~/.g810-profile/bin' to PATH
